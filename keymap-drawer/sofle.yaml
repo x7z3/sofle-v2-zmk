@@ -29,7 +29,7 @@ layers:
   - ENTER
   - PLAY PAUSE
   - PAUSE
-  - CAPS
+  - {t: ▽, type: trans}
   - LEFT ALT
   - LCTRL
   - DELETE
@@ -151,7 +151,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - CAPS
   - {t: ▽, type: trans}
   - {t: mac, h: toggle}
   - {t: ▽, type: trans}
