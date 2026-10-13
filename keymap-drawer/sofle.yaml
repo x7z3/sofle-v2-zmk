@@ -34,7 +34,7 @@ layers:
   - LCTRL
   - DELETE
   - LEFT COMMAND
-  - {t: ▽, type: trans}
+  - '&mkp MB2'
   - LEFT
   - DOWN
   - UP ARROW
@@ -42,11 +42,11 @@ layers:
   - {t: ▽, type: trans}
   - PRINTSCREEN
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - NEXT
