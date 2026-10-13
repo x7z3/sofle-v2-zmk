@@ -123,9 +123,9 @@
             label = "sys";
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4                    &trans  &trans      &trans  &trans  &trans  &trans
-&trans      &trans        &tog 1        &ext_power EP_ON   &sys_reset    &out OUT_USB                    &trans  &sys_reset  &trans  &trans  &trans  &trans
-&trans      &trans        &tog 0        &ext_power EP_OFF  &trans        &trans                          &trans  &trans      &trans  &trans  &trans  &trans
-&trans      &trans        &trans        &trans             &trans        &out OUT_BLE  &trans    &trans  &trans  &trans      &trans  &trans  &trans  &trans
+&trans      &trans        &tog 1        &ext_power EP_TOG  &sys_reset    &out OUT_TOG                    &trans  &sys_reset  &trans  &trans  &trans  &trans
+&trans      &trans        &tog 0        &trans             &trans        &trans                          &trans  &trans      &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans             &trans        &trans        &trans    &trans  &trans  &trans      &trans  &trans  &trans  &trans
                           &trans        &trans             &trans        &trans        &trans    &trans  &trans  &trans      &trans  &trans
             >;
 
