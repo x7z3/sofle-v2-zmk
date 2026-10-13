@@ -28,7 +28,7 @@ layers:
   - INSERT
   - ENTER
   - PLAY PAUSE
-  - {t: ▽, type: trans}
+  - PAUSE
   - {t: ▽, type: trans}
   - LEFT ALT
   - LCTRL
@@ -40,11 +40,11 @@ layers:
   - UP ARROW
   - RIGHT
   - {t: ▽, type: trans}
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - CAPSLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
