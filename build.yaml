@@ -23,8 +23,8 @@
 #     shield: settings_reset
 include:
   - board: nice_nano_v2
-    shield: sofle_left nice_oled
+    shield: sofle_left # nice_oled
   - board: nice_nano_v2
-    shield: sofle_right nice_oled
+    shield: sofle_right # nice_oled
   - board: nice_nano_v2
     shield: settings_reset
