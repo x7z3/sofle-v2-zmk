@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  mac: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
+  mac: ['=', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
     Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RSHFT, LEFT ALT, LEFT WIN, LCTRL, fun, SPACE, SPACE, sym, RCTRL, RIGHT WIN, RIGHT ALT]
-  win: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
+  win: ['=', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
     Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RSHFT, LEFT WIN, LEFT ALT, LCTRL, fun, SPACE, SPACE, sym, RCTRL, RALT, RIGHT WIN]
   fun:
   - F12
@@ -28,7 +28,7 @@ layers:
   - INSERT
   - ENTER
   - PLAY PAUSE
-  - PAUSE
+  - PREV
   - {t: ▽, type: trans}
   - LEFT ALT
   - LCTRL
