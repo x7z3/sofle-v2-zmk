@@ -100,11 +100,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp F12  &kp F1          &kp F2           &kp F3            &kp F4             &kp F5                           &kp F6         &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
-&trans   &kp NUMBER_1    &kp N2           &kp N3            &kp N4             &kp N5                           &kp N6         &kp N7        &kp N8        &kp N9        &kp N0        &kp MINUS
-&trans   &kp LS(EXCL)    &kp LS(AT)       &kp LS(POUND)     &kp LS(DLLR)       &kp LS(PRCNT)                    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(UNDER)
-&trans   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans    &trans  &kp BACKSLASH  &kp EQUAL     &kp PLUS      &trans        &trans        &trans
-                         &trans           &trans            &trans             &mo 4          &trans    &trans  &none          &trans        &trans        &trans
+&kp F12    &kp F1          &kp F2           &kp F3            &kp F4             &kp F5                           &kp F6         &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
+&kp GRAVE  &kp NUMBER_1    &kp N2           &kp N3            &kp N4             &kp N5                           &kp N6         &kp N7        &kp N8        &kp N9        &kp N0        &kp MINUS
+&kp TILDE  &kp LS(EXCL)    &kp LS(AT)       &kp LS(POUND)     &kp LS(DLLR)       &kp LS(PRCNT)                    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(UNDER)
+&trans     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans    &trans  &kp BACKSLASH  &kp EQUAL     &kp PLUS      &trans        &trans        &trans
+                           &trans           &trans            &trans             &mo 4          &trans    &trans  &none          &trans        &trans        &trans
             >;
 
             sensor-bindings =
