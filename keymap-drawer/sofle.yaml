@@ -142,9 +142,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: win, h: toggle}
-  - EP ON
+  - EP TOG
   - '&sys_reset'
-  - OUT USB
+  - OUT TOG
   - {t: ▽, type: trans}
   - '&sys_reset'
   - {t: ▽, type: trans}
@@ -154,7 +154,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: mac, h: toggle}
-  - EP OFF
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -168,7 +167,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - OUT BLE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
