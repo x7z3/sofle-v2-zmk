@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  mac: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RSHFT, LEFT ALT, LEFT WIN, LCTRL, fun, SPACE, SPACE, sym, RCTRL, RIGHT WIN, RIGHT ALT]
-  win: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RSHFT, LEFT WIN, LEFT ALT, LCTRL, fun, SPACE, SPACE, sym, RCTRL, RALT, RIGHT WIN]
+  mac: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, '`', Q, W, E, R, T, Y, U, I, O, P, \, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
+    Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RSHFT, LEFT ALT, LEFT WIN, LCTRL, fun, SPACE, SPACE, sym, RCTRL, RIGHT WIN, RIGHT ALT]
+  win: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, '`', Q, W, E, R, T, Y, U, I, O, P, \, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
+    Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RSHFT, LEFT WIN, LEFT ALT, LCTRL, fun, SPACE, SPACE, sym, RCTRL, RALT, RIGHT WIN]
   fun:
   - F12
   - F1
@@ -47,7 +47,7 @@ layers:
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
   - '&mkp MB1'
-  - {t: ▽, type: trans}
+  - {t: sys, h: sticky}
   - {t: ▽, type: trans}
   - NEXT
   - MUTE
@@ -109,7 +109,7 @@ layers:
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: sys, h: sticky}
   - \
   - '='
   - +
@@ -139,7 +139,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: win, h: toggle}
   - EP TOG
@@ -150,7 +150,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - CAPS
   - {t: ▽, type: trans}
   - {t: mac, h: toggle}
@@ -169,7 +169,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - RGB TOG
   - RGB BRD
   - RGB BRI
@@ -183,7 +183,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
