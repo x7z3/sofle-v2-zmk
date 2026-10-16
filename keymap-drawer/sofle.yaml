@@ -169,7 +169,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: RGB TOG, type: held}
   - RGB TOG
   - RGB BRD
   - RGB BRI
