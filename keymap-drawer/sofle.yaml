@@ -175,7 +175,7 @@ layers:
   - RGB BRI
   - RGB EFR
   - RGB EFF
-  - {t: ▽, type: trans}
+  - '&soft_off'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
