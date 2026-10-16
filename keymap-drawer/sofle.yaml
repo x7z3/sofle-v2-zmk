@@ -151,7 +151,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&studio_unlock'
-  - CAPS
+  - '&soft_off'
   - {t: ▽, type: trans}
   - {t: mac, h: toggle}
   - {t: ▽, type: trans}
@@ -162,9 +162,9 @@ layers:
   - RGB SAD
   - RGB SAI
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '&soft_off'
+  - EP ON
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -175,8 +175,8 @@ layers:
   - RGB BRI
   - RGB EFR
   - RGB EFF
-  - '&soft_off'
   - {t: ▽, type: trans}
+  - EP ON
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
