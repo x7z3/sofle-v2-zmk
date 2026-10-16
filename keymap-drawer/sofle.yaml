@@ -22,7 +22,7 @@ layers:
   - BRIGHTNESS INC
   - END
   - HOME
-  - {t: ▽, type: trans}
+  - ENTER
   - PAGE DOWN
   - PG UP
   - INSERT
