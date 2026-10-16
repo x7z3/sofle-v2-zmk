@@ -147,7 +147,7 @@ layers:
   - OUT TOG
   - {t: ▽, type: trans}
   - '&sys_reset'
-  - {t: ▽, type: trans}
+  - EP TOG
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&studio_unlock'
